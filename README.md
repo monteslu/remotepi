@@ -20,6 +20,6 @@ Then you'll need to sudo to access the GPIOs:
 sudo node server
 ```
 
-Then open a browser to the pi's IP: http://MY_PI_ADDRESS:30000
+Then open a browser to the pi's IP: http://MY_PI_ADDRESS:3000
 
 You're robots code will be running in the browser, but controlling the pins on the pi!
