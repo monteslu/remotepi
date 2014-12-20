@@ -10,7 +10,7 @@ This takes about half an hour on my Model B Rev 2 pi:
 npm install
 ````
 
-Then you need to build the we UI:
+Then you need to build the web UI:
 ```
 npm run build
 ```
