@@ -17,7 +17,7 @@ var DEFAULT_SCRIPT = '/* \n'
   + 'board.on(\'ready\', function(){\n'
   + '  // Default to WIRING pin 9\n'
   + '  var led = new five.Led(9);\n'
-  + '  led.blink();\n'
+  + '  led.blink(500);\n'
   + '});';
 
 
