@@ -3,9 +3,11 @@ Remote Pi
 This app runs on a raspberry Pi allowing you remote access via a webrowser to
  run [Johnny-Five](https://github.com/rwaldron/johnny-five) programs.
 
+![Remote Pi](screenshot.png)
+
 # Getting Started
 
-This takes about half an hour on my Model B Rev 2 pi:
+This takes about half an hour on my Model A+ pi (and you may need to run it a couple of times if the install doesnt finish):
 ```
 npm install
 ````
