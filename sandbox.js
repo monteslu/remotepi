@@ -7,7 +7,10 @@ var firmata = require('firmata');
 var SerialPort = require('./lib/postSerial');
 
 var Repl = require('johnny-five/lib/repl');
-Repl.isBlocked = true;
+Repl.prototype.initialize = function(callback){
+  console.log('repl initialize stub');
+  callback();
+}
 
 window.$ = $;
 window._ = _;
