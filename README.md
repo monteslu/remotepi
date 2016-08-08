@@ -3,7 +3,7 @@ Remote Pi
 This app runs on a raspberry Pi allowing you remote access via a webrowser to
  run [Johnny-Five](https://github.com/rwaldron/johnny-five) programs.
 
-It is uses [raspi-io](https://github.com/bryan-m-hughes/raspi-io) wrapped with [remote-io](https://github.com/monteslu/remote-io).  The hardware is exposed via the [scoket.io-serial](https://github.com/monteslu/socket.io-serial) transport to the self hosted browser app or to any other node client that wishes to connect to it.
+It is uses [raspi-io](https://github.com/bryan-m-hughes/raspi-io) wrapped with [remote-io](https://github.com/monteslu/remote-io).  The hardware is exposed via the [socket.io-serial](https://github.com/monteslu/socket.io-serial) transport to the self hosted browser app or to any other node client that wishes to connect to it.
 
 ![Remote Pi](screenshot.png)
 
